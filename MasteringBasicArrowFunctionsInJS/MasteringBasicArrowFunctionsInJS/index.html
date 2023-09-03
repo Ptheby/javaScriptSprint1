@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*Exercises & Committing to GitHub:
+Construct a new JavaScript file for practicing the newly acquired concepts.
+Script a minimum of three arrow functions:
+A function that accepts two arguments and returns their product.
+*/
+let multiply= (a,b) => a * b;
+console.log(multiply(5,3)); //15
+let times= (a,b,c,d) => a*b*c*d;
+console.log(times(1,1,2,3))   //6 
+
+
+
+// A function that takes in a string and returns it in uppercase.
+
+// let smallBig= (name) => smallBig.toUpperCase();
+// console.log(smallBig("hello"));
+///getting undefined and need help!
+//i am trying to create a function named smallBig with one parameter of name with no paranthesis and returning smallBig 
+//function so that whatever is entered as an argument will be .toUpperCase. Can't figure it out
+
+
+// I am lost on this one, need help. below i am trying to type out the actual functin to do the arrow function above
+function myFunction(name) {
+   
+console.log( name.toUpperCase())
+}
+myFunction("paul");
+
+let mySecondFunction = (name) => console.log(name.toUpperCase());
+
+
+mySecondFunction("word");
+// console.log(myFunction(hello));
+// function upperCase(str) {
+//   return str.toUpperCase();
+// }
+// console.log(upperCase("helpme"));
+
+//another try from the internet
+// const upperCase = (str) => str.toUpperCase();
+// const result =upperCase("paul theby");
+// console.log(result);
+//still not working !
+///ANOTHER TRY
+// const name = "freeCodeCamp";
+// const uppercase = name.toUpperCase();
+// console.log(uppercase);  //this works but how to turn into a function?!?!?!
+
+// const upperCase = (str) => str.toUpperCase();
+// console.log(upperCase());
+
+
+// A function with a single parameter, calculating the square of the provided number.
+
+ let squared= p => p*p;
+console.log(squared(9)); 
+
+let cubed = x => x*x*x;
+console.log(cubed(3));
+//this is saying let the function named squared with one permimeter of p return a p times p, then 
+//i console logged the function with 9 as an argument for p which returns an 81!!!
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    <h1>
+        Mastering Basic Arrow Functions in JS
+    </h1>
+    <h2>
+        1. Basics of Arrow Functions:
+    </h2>
+    <ol>
+        <li>Go through the introductory part on Arrow Functions, the basics and understand the motivation behind their introduction in JavaScript.</li>
+        <li>Recognize the arrow function syntax:
+            javascriptCopy code
+            let func = (arg1, arg2, ..., argN) => expression;
+            And its longer version:
+            javascriptCopy code
+            let func = function(arg1, arg2, ..., argN) {
+              return expression;
+            };</li>
+        <li>Digest the simplicity and conciseness of arrow functions through the given sum function example.</li>
+    </ol>
+    <p>
+
+        
+    </p>
+    
+</body>
+</html>
